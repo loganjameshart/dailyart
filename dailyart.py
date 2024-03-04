@@ -6,9 +6,11 @@ import smtplib
 from email.message import EmailMessage
 from os import remove
 
-SERVER = "smtp.gmail.com"
-PORT = "587"
-
+SERVER = ""
+PORT = ""
+MAIL = ""
+PASS = ""
+RECIPIENTS = []
 
 DATE = datetime.now().strftime("%m-%d-%y")
 IMAGE_SETTINGS = "full/843,/0/default.jpg" #grabbed from art institute's instructions on best formatting
