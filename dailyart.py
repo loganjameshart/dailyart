@@ -1,3 +1,13 @@
+"""
+TODO:
+    1. Add "history" mode
+    2. Make GUI
+
+
+"""
+
+
+
 import requests
 from datetime import datetime
 from pathlib import Path
